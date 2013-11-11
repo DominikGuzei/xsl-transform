@@ -1,0 +1,38 @@
+{
+  "name": "xslt-cli",
+  "description": "Command line interface for transforming XML files with XSL",
+  "version": "0.1.0",
+  "homepage": "https://github.com/DominikGuzei/xslt-cli",
+  "author": {
+    "name": "Dominik Guzei",
+    "email": "dominik.guzei@gmail.com",
+    "url": "codeadventure.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DominikGuzei/xslt-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/DominikGuzei/xslt-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/DominikGuzei/xslt-cli/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/xslt-cli",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
