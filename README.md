@@ -10,7 +10,7 @@ Install the module with: `npm install -g xsl-transform`
 In your console:
 
 ```
-xsl-transform path/to/stylesheet.xsl input/path output/path
+xsltransform path/to/stylesheet.xsl input/path output/path
 ```
 
 ###The Parameters:
