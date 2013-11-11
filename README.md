@@ -1,26 +1,29 @@
-# xslt-cli
+# xsl-transform
 
 Command line interface for transforming XML files with XSL
+with the help of `node_xslt`.
 
 ## Getting Started
-Install the module with: `npm install xslt-cli`
+Install the module with: `npm install -g xsl-transform`
 
-```javascript
-var xslt_cli = require('xslt-cli');
-xslt_cli.awesome(); // "awesome"
+##Usage:
+In your console:
+
+```
+xsl-transform path/to/stylesheet.xsl input/path output/path
 ```
 
-## Documentation
-_(Coming soon)_
+###The Parameters:
 
-## Examples
-_(Coming soon)_
+1. Path to the XSL stylesheet file
+2. Path to a single input XML or a folder with any number of XML files
+3. Path to the output directory where the transformed files will be saved to.
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+Pull Requests welcome!
 
 ## Release History
-_(Nothing yet)_
+0.1.0 first release
 
 ## License
 Copyright (c) 2013 Dominik Guzei  
